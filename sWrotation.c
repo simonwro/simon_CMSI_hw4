@@ -5,6 +5,7 @@
 
 int counter;
 
+
 char* getString(char* string, int place, int strlength) {
     char* position = malloc(strlength + 1);
     for (counter = 0 ; counter < strlength; counter++) {
